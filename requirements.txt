@@ -1,0 +1,44 @@
+# FastAPI server
+fastapi
+uvicorn
+
+# LangChain + OpenAI
+langchain
+langchain-community
+langchain-openai
+openai
+
+# Vector DB
+chromadb
+langchain-chroma
+
+# PostgreSQL (Production DB)
+sqlalchemy
+psycopg2-binary
+
+# Data validation
+pydantic
+
+# File upload
+python-multipart
+
+# PDF parsing
+pypdf
+
+# Environment variables
+python-dotenv
+
+# PII Detection (Advanced)
+spacy
+presidio-analyzer
+presidio-anonymizer
+
+# Optional (better performance & async support)
+asyncpg
+
+
+# streamlit
+streamlit
+requests
+
+tavily-python
