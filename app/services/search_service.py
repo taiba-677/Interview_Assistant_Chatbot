@@ -60,8 +60,11 @@ class SearchService:
         Returns an empty list in case of error.
         """
         try:
+            # Append year to query to prioritize latest 2026 info
+            search_query = f"{query} latest 2026"
+            
             response = self.client.search(
-                query=query,
+                query=search_query,
                 search_depth="basic",
                 max_results=max_results,
                 include_answer=False,

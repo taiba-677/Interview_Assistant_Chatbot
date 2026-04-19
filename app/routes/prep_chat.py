@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
@@ -10,6 +11,7 @@ class PrepChatRequest(BaseModel):
     user_id: str
     message: str
     chat_history: list = []
+    old_message: Optional[str] = None
 
 
 @router.post("/prep-chat")
@@ -19,7 +21,8 @@ def prep_chat(req: PrepChatRequest):
         response = service.get_response(
             user_id=req.user_id,
             user_message=req.message,
-            chat_history=req.chat_history
+            chat_history=req.chat_history,
+            old_message=req.old_message
         )
         return {"response": response}
     except Exception as e:

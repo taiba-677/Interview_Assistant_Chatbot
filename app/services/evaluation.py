@@ -46,6 +46,8 @@ class EvaluationService:
           * reject: Overall score < 60
         - Professional, constructive feedback
         
+        IMPORTANT: Do NOT include examples like (e.g., ...) in your recommendations, strengths, or weaknesses. Give direct, clear, actionable advice without parenthetical examples.
+        
         Only output evaluation.
         """
         response = self.structured_llm.invoke(prompt)

@@ -2,10 +2,11 @@ from fastapi import FastAPI
 from app.routes import upload
 from app.core.config import settings
 from app.routes import interview
-
+from app.routes import mock_sessions
 from app.routes import evaluation
 
 from app.routes import prep_chat
+from app.routes import mock_sessions
 from app.db.session import engine, Base
 from app.models import sql_models
 
@@ -22,4 +23,7 @@ app.include_router(upload.router)
 app.include_router(interview.router)
 app.include_router(evaluation.router)
 
+app.include_router(mock_sessions.router)
 app.include_router(prep_chat.router)
+
+app.include_router(mock_sessions.router)
