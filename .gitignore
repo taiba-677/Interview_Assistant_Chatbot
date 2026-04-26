@@ -32,3 +32,4 @@ dist/
 
 # Database
 *.sqlite3
+data/
