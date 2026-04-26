@@ -5,15 +5,21 @@ A powerful, AI-driven application designed to help job seekers prepare for inter
 ## 🚀 Features
 
 **📄 Resume-Centric Preparation**: Upload your PDF resume, and the AI will tailor all questions and advice based on your specific background and skills.
+
 **💬 Mock Interview Mode**: A free-form chat interface where you can ask questions about your resume, get career advice, or practice answering specific technical questions.
+
 **🎯 Structured Interview Session**: A formal 6-question interview simulation that tests both technical and behavioral aspects.
+
 **📊 Detailed Evaluation**: Get an instant performance report with:
   - Overall score (%)
   - Technical & Behavioral ratings
   - Strengths and areas for improvement
   - Professional recommendations
+
 **🔒 Privacy First**: Integrated PII masking ensures sensitive contact information (emails, phone numbers) is handled securely.
+
 **🔍 Web-Enhanced Insights**: Uses real-time web search (Tavily) to provide up-to-date industry standards and technical information.
+
 **📂 Session Management**: Save, rename, and manage multiple preparation sessions for different job roles.
 
 ## 🛠️ Tech Stack
