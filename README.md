@@ -74,9 +74,3 @@ A powerful, AI-driven application designed to help job seekers prepare for inter
 
 3. Open your browser and navigate to the local Streamlit URL (usually `http://localhost:8501`).
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-*Built with ❤️ for job seekers everywhere.*
